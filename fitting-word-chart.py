@@ -81,5 +81,5 @@ def embed(fpath):
                         Lists_Write(fpath+'/'+(list[i].split('.'))[0]+'-'+''.join(str(z)+',' for z in tittles).replace('/','').replace(':','')+'.xlsx',newlist)
     else:
         print('文件夹不存在！')
-#embed('D:/1/word/charts')#输入XML所在文件夹路径
-#def fitwordchart(wordfile):
+embed('D:/1/word/charts')#输入XML所在文件夹路径
+def fitwordchart(wordfile):
